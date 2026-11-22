@@ -1,0 +1,19 @@
+Load     Algorithm     Movement Avg movement     Avg wait     Max wait     Throughput
+light    FCFS           657821        65.78        65.78          196        15.20 req/1000c
+light    SSTF           234813        23.48        23.48          197        42.59 req/1000c
+light    SCAN           234865        23.49        23.49          157        42.58 req/1000c
+light    C-SCAN         340399        34.04        34.04          199        29.38 req/1000c
+light    LOOK           199479        19.95        19.95          155        50.13 req/1000c
+light    C-LOOK         306627        30.66        30.66          199        32.61 req/1000c
+medium   FCFS           663364        66.34        66.34          196        15.07 req/1000c
+medium   SSTF            28683         2.87         2.87          155       348.64 req/1000c
+medium   SCAN            25053         2.51         2.51           63       399.15 req/1000c
+medium   C-SCAN          39305         3.93         3.93          199       254.42 req/1000c
+medium   LOOK            24769         2.48         2.48           63       403.73 req/1000c
+medium   C-LOOK          39011         3.90         3.90          199       256.34 req/1000c
+heavy    FCFS           664531        66.45        66.45          196        15.05 req/1000c
+heavy    SSTF             2892         0.29         0.29          147      3457.81 req/1000c
+heavy    SCAN             2520         0.25         0.25           54      3968.25 req/1000c
+heavy    C-SCAN           3970         0.40         0.40          199      2518.89 req/1000c
+heavy    LOOK             2520         0.25         0.25           54      3968.25 req/1000c
+heavy    C-LOOK           3970         0.40         0.40          199      2518.89 req/1000c

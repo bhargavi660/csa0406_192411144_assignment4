@@ -1,0 +1,5 @@
+*.o
+task2_allocation/alloc
+task4_scheduling/sched
+task4_scheduling/sched_sim
+task6_design/stream_sim

@@ -1,0 +1,83 @@
+=== uname ===
+Linux Bhargavi 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 GNU/Linux
+=== block devices ===
+NAME FSTYPE FSVER LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+sda  ext4   1.0                                                             
+sdb  ext4   1.0                                                             
+sdc  swap   1           2b8ca034-d792-459a-8714-b4b16e62db58                [SWAP]
+sdd  ext4   1.0         f5101977-cdc3-400d-bc27-f0b1a65a474d  953.3G     0% /mnt/wslg/distro
+                                                                            /
+=== root fs ===
+  File: "/"
+    ID: c6e937494007996b Namelen: 255     Type: ext2/ext3
+Block size: 4096       Fundamental block size: 4096
+Blocks: Total: 263940717  Free: 263329524  Available: 249903656
+Inodes: Total: 67108864   Free: 67056678
+=== inode usage ===
+Filesystem       Inodes   IUsed    IFree IUse% Mounted on
+none             996177       5   996172    1% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+none             996177       2   996175    1% /mnt/wsl
+drivers             999 -999001  1000000     - /usr/lib/wsl/drivers
+/dev/sdd       67108864   52186 67056678    1% /
+none             996177      23   996154    1% /mnt/wslg
+none             996177       5   996172    1% /usr/lib/wsl/lib
+rootfs           994737      12   994725    1% /init
+none             996177     553   995624    1% /run
+none             996177       2   996175    1% /run/lock
+none             996177       1   996176    1% /run/shm
+none             996177      49   996128    1% /mnt/wslg/versions.txt
+none             996177      49   996128    1% /mnt/wslg/doc
+C:\                 999 -999001  1000000     - /mnt/c
+none               1024       1     1023    1% /run/credentials/systemd-journald.service
+tmpfs           1048576      11  1048565    1% /tmp
+none               1024       1     1023    1% /run/credentials/systemd-resolved.service
+none               1024       1     1023    1% /run/credentials/getty@tty1.service
+tmpfs            199235      44   199191    1% /run/user/1000
+=== disk usage ===
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         459G  214G  246G  47% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            3.9G   32K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.8M  3.8G   1% /init
+none            3.9G  528K  3.8G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   68K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   68K  3.9G   1% /mnt/wslg/doc
+C:\             459G  214G  246G  47% /mnt/c
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           3.9G     0  3.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           779M   12K  779M   1% /run/user/1000
+=== inode of a file ===
+743 /etc/hosts
+=== stat of a file ===
+  File: /etc/hosts
+  size: 413       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,48	Inode: 743         Links: 1
+Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2026-11-22 05:39:23.740917636 +0000
+Modify: 2026-11-22 05:39:22.588732877 +0000
+Change: 2026-11-22 05:39:22.588732877 +0000
+ Birth: 2026-07-22 04:35:27.353422271 +0000
+=== ext4 superblock (may need sudo) ===
+tune2fs 1.47.2 (1-Jan-2025)
+Couldn't find valid filesystem superblock.
+tune2fs/dumpe2fs unavailable or not readable — sudo not used
+=== IO scheduler ===
+/sys/block/loop0/queue/scheduler: [none] mq-deadline kyber 
+/sys/block/loop1/queue/scheduler: [none] mq-deadline kyber 
+/sys/block/loop2/queue/scheduler: [none] mq-deadline kyber 
+/sys/block/loop3/queue/scheduler: [none] mq-deadline kyber 
+/sys/block/loop4/queue/scheduler: [none] mq-deadline kyber 
+/sys/block/loop5/queue/scheduler: [none] mq-deadline kyber 
+/sys/block/loop6/queue/scheduler: [none] mq-deadline kyber 
+/sys/block/loop7/queue/scheduler: [none] mq-deadline kyber 
+/sys/block/sda/queue/scheduler: [none] mq-deadline kyber 
+/sys/block/sdb/queue/scheduler: [none] mq-deadline kyber 
+/sys/block/sdc/queue/scheduler: [none] mq-deadline kyber 
+/sys/block/sdd/queue/scheduler: [none] mq-deadline kyber 
